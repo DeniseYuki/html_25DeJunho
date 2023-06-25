@@ -11,6 +11,7 @@ img{
     height: 70px;
 }
 
+
 .menor-esquerdo{
     margin-top: -10%;
     width: 20vw;
@@ -21,7 +22,7 @@ img{
 .menor{
     width: 20vw;
     height: 10vh;
-    border:1px solid rgba(14, 10, 10, 0.267);
+    border:1px solid rgba(14, 10, 10, 0);
 }
 
 .menor-direito{
