@@ -1,8 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 span{
     font-family: monospace;
 }
+img{
+    width: 70px;
+    height: 70px;
+}
 
 .menor-esquerdo{
+    margin-top: -10%;
     width: 20vw;
     height: 100%;
     border:1px solid rgba(0, 0, 0, 0);
@@ -11,18 +21,32 @@ span{
 .menor{
     width: 20vw;
     height: 40%;
-    border:1px solid rgba(65, 49, 49, 0.267);
+    border:1px solid rgba(65, 49, 49, 0);
 }
 
 .centro{
+    margin-top: -10%;
     width: 41vw;
     height: 100%;
-    border:1px solid rgb(0, 0, 0);
+    border:1px solid rgba(8, 3, 3, 0);
+
 }
 
-.img-redonda{
+.status{
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    
+    
+}
+
+
+
+.img-redonda img{
+    
     border-radius: 100%;
-    border:1px solid black
+    border:4px ridge rgb(255, 51, 0) ;
 }
 
 
