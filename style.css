@@ -20,8 +20,15 @@ img{
 
 .menor{
     width: 20vw;
-    height: 40%;
-    border:1px solid rgba(65, 49, 49, 0);
+    height: 10vh;
+    border:1px solid rgba(14, 10, 10, 0.267);
+}
+
+.menor-direito{
+    display: flex;
+    width:50%;
+    height: 100vh;
+    border:1px solid rgba(14, 10, 10, 0.267);
 }
 
 .centro{
@@ -56,5 +63,5 @@ img{
 .menor-direito{
     width: 20vw;
     height: 100%;
-    border:1px solid black;
+    border:1px solid rgba(0, 0, 0, 0);
 }
