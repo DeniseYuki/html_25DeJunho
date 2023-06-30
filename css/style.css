@@ -18,6 +18,12 @@ span{
     color: antiquewhite;
 }
 
+.feed{
+    width: 120vw;
+    height: auto;
+    right: -195%;
+}
+
 
 
 .menor-esquerdo{
@@ -25,6 +31,7 @@ span{
     width: 20vw;
     height: 100%;
     border:1px solid rgba(0, 0, 0, 0);
+    font-size: small;
 }
 
 .menor{
@@ -63,7 +70,7 @@ span{
 .img-redonda img{
     
     border-radius: 100%;
-    border:4px ridge rgb(255, 51, 0) ;
+    border:4px ridge rgb(0, 255, 17) ;
 }
 
 
@@ -72,15 +79,17 @@ span{
     width: 100px;
     height: auto;
     border:1px solid rgba(21, 3, 3, 0);
-    right: -50px;
+    margin-top: -90px;
+    right: -200px;
 }
 
 
 .menor-direito{
-    width: 350px;
+    width: 250px;
     height: auto;
-    border:1px solid rgba(32, 12, 12, 0);
+    border:1px solid rgba(193, 29, 29, 0);
     font-size: small;
+    position: relative;
 }
 
 .coluna-perfil{
